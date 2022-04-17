@@ -8,8 +8,10 @@
 import UIKit
 
 class ResultViewController: UIViewController {
+    @IBOutlet var animalLabel: UILabel!
+    @IBOutlet var descriptionLabel: UILabel!
+    
     var answers: [Answer]!
-    // 1. Передать сюда массив с ответами
     // 2. Определить наиболее часто встречающийся тип животного
     // 3. Отобразить результат в соответствии с этим животным
 
